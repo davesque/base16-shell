@@ -3,10 +3,10 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Tomorrow scheme by Chris Kempson (http://chriskempson.com)
 
-color00="ff/ff/ff" # Base 00 - Black
+color00="f6/f6/f6" # Base 00 - Black
 color01="c8/28/29" # Base 08 - Red
 color02="71/8c/00" # Base 0B - Green
-color03="ea/b7/00" # Base 0A - Yellow
+color03="db/ac/00" # Base 0A - Yellow
 color04="42/71/ae" # Base 0D - Blue
 color05="89/59/a8" # Base 0E - Magenta
 color06="3e/99/9f" # Base 0C - Cyan
@@ -26,7 +26,7 @@ color19="d6/d6/d6" # Base 02
 color20="96/98/96" # Base 04
 color21="28/2a/2e" # Base 06
 color_foreground="4d/4d/4c" # Base 05
-color_background="ff/ff/ff" # Base 00
+color_background="f6/f6/f6" # Base 00
 
 if [ -n "$TMUX" ]; then
   # Tell tmux to pass the escape sequences through
@@ -79,7 +79,7 @@ put_template 21 $color21
 if [ -n "$ITERM_SESSION_ID" ]; then
   # iTerm2 proprietary escape codes
   put_template_custom Pg 4d4d4c # foreground
-  put_template_custom Ph ffffff # background
+  put_template_custom Ph f6f6f6 # background
   put_template_custom Pi 4d4d4c # bold color
   put_template_custom Pj d6d6d6 # selection color
   put_template_custom Pk 4d4d4c # selected text color
