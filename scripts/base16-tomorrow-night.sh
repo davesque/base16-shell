@@ -3,6 +3,8 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # Tomorrow Night scheme by Chris Kempson (http://chriskempson.com)
 
+export BASE16_THEME=tomorrow-night
+
 color00="1d/1f/21" # Base 00 - Black
 color01="cc/66/66" # Base 08 - Red
 color02="b5/bd/68" # Base 0B - Green
